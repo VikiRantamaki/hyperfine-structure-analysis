@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 from scipy.constants import physical_constants
-from lampi import path, m, vm
+from vals import path, m, vm
 
 
 c = physical_constants['speed of light in vacuum'][0]
