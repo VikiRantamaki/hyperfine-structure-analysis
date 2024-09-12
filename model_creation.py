@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import satlas as sat
-from hauki import data_binning
-from lampi import ml, scan, m, path, vm, binsize, spins_gs, hyperfine_factors_gs_12, lineshapes
+from binning import data_binning
+from vals import ml, scan, m, path, vm, binsize, spins_gs, hyperfine_factors_gs_12, lineshapes
 
 class satlas_analysis:
     '''Model creation and plotting
