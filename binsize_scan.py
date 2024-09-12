@@ -1,5 +1,5 @@
 from model_creation import satlas_analysis
-from lampi import ml, scan, m, path, vm
+from vals import ml, scan, m, path, vm
 import pandas as pd
 import matplotlib.pyplot as plt
 
