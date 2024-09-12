@@ -1,6 +1,6 @@
 from cmath import nan
 from lib2to3.pygram import pattern_grammar
-from sankerias import satlas_analysis
+from model_creation import satlas_analysis
 from lampi import ml, m, vm, binsize, scan_binsize, lineshapes
 import pandas as pd
 import matplotlib.pyplot as plt
