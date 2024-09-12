@@ -1,8 +1,8 @@
 from sqlite3 import Timestamp
 import numpy as np 
 import pandas as pd 
-import kala
-from lampi import path, m, vm, binsize
+import create_dataframe
+from vals import path, m, vm, binsize
 from uncertainties import unumpy
 import matplotlib.pyplot as plt
 
@@ -38,7 +38,7 @@ def data_binning(path, m, vm, binsize, wavenumber):
 
     np.set_printoptions(precision=30)
 
-    df, timestamp_mean = kala.df(path, m, vm)
+    df, timestamp_mean = create_dataframe.df(path, m, vm)
 
     wn = df[wavenumber].to_numpy()
     counts = df['events_per_bunch'].to_numpy()
