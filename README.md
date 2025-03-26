@@ -1,4 +1,4 @@
-# hyperfine-structure-analysis
+# hyperfine structure analysis
 **Analysis of experimental data from an experiment on radioactive aluminum isotopes at CERN**
 
 The experiment aimed to measure changes in the mean-squared nuclear charge radii of the short-lived isotopes 
